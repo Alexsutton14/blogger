@@ -26,7 +26,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem "paperclip"
+# Use Paperclip to handle attachments
+gem 'paperclip'
+# Use Sorcery for authentication
+gem 'sorcery'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
